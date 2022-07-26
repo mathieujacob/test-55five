@@ -13,7 +13,7 @@ function ShowProduct (element) {
       element.dataset.alreadySeen = "1";
     });
 };
-// fonction qui permet de gérer la zonne d'affichage)
+// filter only what are in the window
 function InViewport(element) {
   const bounding = element.getBoundingClientRect();
   return (
